@@ -1,4 +1,3 @@
-<script>
 //<![CDATA[
 document.addEventListener("DOMContentLoaded", function() {
   var blockquotes = document.querySelectorAll("blockquote");
@@ -52,4 +51,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 //]]>
-</script>
