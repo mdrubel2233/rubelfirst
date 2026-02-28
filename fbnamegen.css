@@ -1,0 +1,95 @@
+<style>
+    /* sottoit Styler - Full Width Design */
+    .sottoit-styler-container {
+        background: #ffffff;
+        border: 1px solid #e1e1e1;
+        padding: 20px;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 100%; 
+        margin: 20px 0;
+        font-family: 'Segoe UI', Roboto, sans-serif;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        box-sizing: border-box;
+    }
+    .sottoit-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #1877f2;
+        text-align: center;
+    }
+    .sottoit-styler-container textarea#mainInput {
+        width: 100%;
+        height: 80px;
+        padding: 15px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        resize: vertical;
+    }
+    .sottoit-styler-container textarea#mainInput:focus {
+        border-color: #1877f2;
+        outline: none;
+    }
+    .sottoit-styler-container .convert-btn {
+        background: #1877f2;
+        color: #fff;
+        border: none;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 25px;
+        transition: 0.3s;
+    }
+    .sottoit-styler-container .convert-btn:hover {
+        background: #115dc0;
+    }
+    .res-wrapper {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .res-label {
+        font-size: 14px;
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 5px;
+        display: block;
+    }
+    .output-group {
+        display: flex;
+        gap: 5px;
+    }
+    .output-box {
+        flex-grow: 1;
+        background: #f9f9f9 !important;
+        height: 50px !important;
+        padding: 10px !important;
+        border: 1px solid #ccc !important;
+        border-radius: 6px 0 0 6px !important;
+        font-size: 16px !important;
+        resize: none;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .copy-btn {
+        background: #4caf50;
+        color: white;
+        border: none;
+        padding: 0 15px;
+        border-radius: 0 6px 6px 0;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+    .copy-btn:hover {
+        background: #388e3c;
+    }
+</style>
